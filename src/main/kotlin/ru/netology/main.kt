@@ -20,7 +20,7 @@ fun main() {
     }
 
     val musicLoverDiscount = if (musicLover) {
-        println("Вы наш постоянный покупетель, вам дополнительная скидка 1%")
+        println("Вы наш постоянный покупетель, вам дополнительная скидка $mLDiscount%")
         amount - (amount * mLDiscount / 100)
     } else {
         amount
